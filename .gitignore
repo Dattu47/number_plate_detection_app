@@ -1,0 +1,33 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Large Dataset Binaries
+datasets/
+
+# YOLO Training Outputs
+runs/
+
+# Snapshots and Images
+images/
+
+# Large Model Weights (Keep local)
+*.pt
+
+# Outputs and Logs
+detected_numbers.txt
+detected_numbers.csv
+anpr_system.log
+
+# IDE files
+.idea/
+.vscode/
+.project
+.pydevproject
+.settings/
